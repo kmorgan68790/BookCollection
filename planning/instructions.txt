@@ -16,9 +16,9 @@ Be able to sort your book entries by rating and recency.
 
 Requirements:
 1. Database Persistance
-Persist data using a PostgreSQL database. [ ]
+Persist data using a PostgreSQL database. [x]
 
-2. Draw a database diagram on draw.io and plan out any relationships/schema. [ ]
+2. Draw a database diagram on draw.io and plan out any relationships/schema. [x]
 
 3. Project Setup
 Set up a new Node.js project using Express.js. [x]
@@ -27,9 +27,9 @@ Include pg for working with your localhost PostgreSQL database. [x]
 
 Include EJS for templating. [x]
 
-Create a frontend in HTML CSS JS. [ ]
+Create a frontend in HTML CSS JS. [x]
 
-Ensure that the project has a structured directory and file organization. [ ]
+Ensure that the project has a structured directory and file organization. [x]
 
 4. API Integration
 Implement at least a GET endpoint to interact with your chosen API. [ ]
