@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#book-container {
+    width: 60%;
+}
+
+/* navigation */
+
+/* contact */
+#message {
+    width: 100%
+}
+
+#contact-box {
+    width: 50vw;
+}

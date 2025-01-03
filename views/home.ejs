@@ -1,4 +1,17 @@
 <%- include("partials/header.ejs") %>
 
+<% if (locals.books) { %>
+<div class="container" id="book-container">
+    <% books.forEach(book => {%>
+        <img src="https://covers.openlibrary.org/b/ISBN/<%=book.isbn %>-M.jpg" alt="">
+        <h2><a href="/book/<%=book.id%>"><%=book.title %></a></h2>
+        <h5><%= book.rating %></h5>
+        <p><%= book.summary %></p>
+    <% }) %>
+
+<% } %>
+
+</div>
+
 
 <%- include("partials/footer.ejs") %>
