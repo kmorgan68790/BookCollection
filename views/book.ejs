@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs") %>
+<div class="container" id="book-container">
+  <img src="https://covers.openlibrary.org/b/ISBN/<%= book.isbn %>-M.jpg" alt=""/>
+  <h2><a href=""><%= book.title %></a></h2>
+  <h5><%= new Date(book.date_read).toLocaleDateString() %></h5>
+  <h5><%= book.rating %></h5>
+  <p>Go to <a href="<%= book.book_link %>">link</a> for further details.</p>
+  <p><%= book.summary %></p>
+  <p><%=note.note %></p>
+</div>
+
+<%- include("partials/footer.ejs") %>
