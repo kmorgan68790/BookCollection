@@ -12,18 +12,18 @@ views
     Partials
         header [x]
         footer [x]
-    home []
-    add []
-        Create/edit form []
+    home [x]
+    add [x]
+        Create/edit form [x]
     about [x]
 index []
     Routes
-        Add new book (/add) []
-        Read/Get Book list on home []
+        Add new book (/add) [x]
+        Read/Get Book list on home [x]
         Sort by recency []
         Sort by ratings []
-        Update book information (note , ratings) (/edit) []
-        Delete book from list []
+        Update book information (note , ratings) (/edit) [x]
+        Delete book from list [x]
     Error handling 
 
 ReadMe []

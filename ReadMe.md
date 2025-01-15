@@ -1,0 +1,3 @@
+This is a capstone project website that utilizes the https://openlibrary.org/dev/docs/api/covers api to retrieve information, namely book covers for boos users read. The endpoints utilize GET/POST/UPDATE/DELETE for information from user input. This site is designed to store information on books users have read in a friendly, easy to sort and lookup format. To start retrieve all the libraries used for this site npm i can be utilized, and to start the server nodemon is used. PostgreSql is used to store user input into a database.
+
+Techologies: Axios Bootstraps Express PostgreSql API

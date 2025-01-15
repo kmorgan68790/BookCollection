@@ -5,8 +5,16 @@
   <h5><%= new Date(book.date_read).toLocaleDateString() %></h5>
   <h5><%= book.rating %></h5>
   <p>Go to <a href="<%= book.book_link %>">link</a> for further details.</p>
+  <h5>Summary:</h5>
   <p><%= book.summary %></p>
+  <h5>Notes:</h5>
   <p><%=note.note %></p>
+
+  <a class="btn btn-primary" href="/book/<%=book.id%>/update" role="button">Update</a>
+  <!-- <a class="btn btn-primary" href="/delete" role="button">Delete</a> -->
+  <form action="/book/<%=book.id%>/delete" method="POST">
+    <button type="submit" class="btn btn-danger me-4">Delete Book</button>
+</form>
 </div>
 
 <%- include("partials/footer.ejs") %>

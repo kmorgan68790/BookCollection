@@ -1,0 +1,30 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container" id="edit-box">
+    <h1>Edit Book</h1>
+    <form action="/book/<%=book.id%>/update" method="POST">
+
+        <label for="title">Title</label>
+        <input type="text" name="title" id="title" class="form-control" value="<%= book.title %>">
+        
+        <label for="isbn">ISBN</label>
+        <input type="text" name="isbn" id="isbn" class="form-control" value="<%= book.isbn %>">
+
+        <label for="date">Date Read</label>
+        <input type="text" name="date" id="date" class="form-control">
+
+        <label for="rating">Rating</label>
+        <input type="text" name="rating" id="rating" class="form-control" value="<%= book.rating %>">
+
+        <label for="link">Book Link</label>
+        <input type="text" name="link" id="link" class="form-control" value="<%= book.book_link %>">
+
+        <label for="summary">Summary</label>
+        <input type="text" name="summary" id="summary" class="form-control" value="<%= book.summary %>">
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a href="/" class="btn btn-danger" role="button">Cancel</a>
+    </form>
+</div>
+
+<%- include("partials/footer.ejs") %>

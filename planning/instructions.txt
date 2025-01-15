@@ -32,20 +32,20 @@ Create a frontend in HTML CSS JS. [x]
 Ensure that the project has a structured directory and file organization. [x]
 
 4. API Integration
-Implement at least a GET endpoint to interact with your chosen API. [ ]
+Implement at least a GET endpoint to interact with your chosen API. [ x]
 
-Use Axios to send HTTP requests to the API and handle responses. [ ]
+Use Axios to send HTTP requests to the API and handle responses. [x ]
 
 5. Data Presentation
-Design the application to present the book covers from the API and the data in your database a in a user-friendly way. [ ]
+Design the application to present the book covers from the API and the data in your database a in a user-friendly way. [ x]
 
 Think about how you would allow the user to sort the data from the database. [ ]
 
 6. Error Handling
 Ensure that error handling is in place for both your application and any API requests. You can console log any errors, 
-but you can also give users any user-relevant errors. [ ]
+but you can also give users any user-relevant errors. [x ]
 
 7. Documentation
-Include comments throughout your code to explain your logic. [ ]
+Include comments throughout your code to explain your logic. [ x]
 
 Include a Readme.md file that explains how to start your server, what commands are needed to run your code. e.g. npm i  and then nodemon index.js [ ]
